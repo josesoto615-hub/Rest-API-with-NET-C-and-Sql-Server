@@ -4,9 +4,9 @@ This sample show as built a application .NET including the funtions get, post, p
 This REST API is designed to be complemented with a front end application.
 It is connected to a Sql Server Database handling Vehiculs information.
 
-You just have to change the following attributes according to SQL Server's configuration and then copy and paste the script to create "vehiculos" table.
+You just have to change the following attributes of the "ConnectionStrings" in the file "appsetting.json" of the project, according to SQL Server's configuration and then copy and paste the script to create "vehiculos" table.
 
-Attibutes: Server, Database, user id, password.
+Attibutes: data source (Server), initial catalog (Database), user id, password.
 
 Script: 
 CREATE TABLE [dbo].[vehiculos](
